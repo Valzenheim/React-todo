@@ -1,0 +1,56 @@
+body{
+    width: 100%
+}
+.App{
+    width: 375px;
+    margin: 100px auto auto auto;
+    box-shadow: 0 0 50px gray;
+}
+.completed{
+    text-decoration: line-through;
+    width: 300px;
+    border-bottom: 1px solid black;
+    vertical-align: middle;
+}
+.active{
+    height: 30px;
+    border-bottom: 1px solid black;
+    display: block;
+
+}
+.activeBtn{
+    border: 1px solid orangered;
+    border-radius: 2px
+}
+.header{
+    height: 40px;
+    width: 375px;
+    text-align: center;
+}
+button{
+    border:none;
+    outline: none;
+    background-color: white;
+}
+.formInput{
+    outline: none;
+    border: none;
+    width: 350px;
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+}
+.textArea{
+   margin: auto auto 5px auto;
+    width: 300px;
+
+}
+.active:hover{
+    background-color: lightgray;
+}
+.remSpan{
+    display: inline-block;
+    margin: 0 auto 0 0;
+}
+active:hover span{
+    opacity:1;
+}
